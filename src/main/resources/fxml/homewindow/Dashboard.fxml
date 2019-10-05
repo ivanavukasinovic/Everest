@@ -167,7 +167,7 @@
                                                                 <Insets/>
                                                             </HBox.margin>
                                                         </Label>
-                                                        <JFXButton fx:id="copyBodyButton" textFill="WHITE"
+                                                        <JFXButton fx:id="copyBodyButton" textFill="WHITE" onAction="#copyToClipboard"
                                                                    HBox.hgrow="ALWAYS">
                                                             <graphic>
                                                                 <ImageView fitHeight="20.0" fitWidth="20.0"

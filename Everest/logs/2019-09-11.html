@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright 2018 Rohit Awate.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11/09/2019</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: #282828;
+            font-size: 15px;
+            font-family: "Liberation Mono", monospace;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+            color: white;
+            background-color: #747474;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        .SEVERE {
+            color: orangered;
+        }
+
+        .WARNING {
+            color: yellow;
+        }
+
+        .INFO {
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+<h1>Everest Logs: 11/09/2019</h1>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:14:46 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:14:54 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:15:02 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 11/09/2019 22:15:39 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gogle.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:16:06 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:43:29 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:43:32 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:43:38 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:44:01 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:44:19 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:44:22 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:44:29 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:44:51 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:46:24 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:46:27 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:46:32 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:46:51 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:47:16 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:47:23 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:47:36 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 22:48:06 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:09:19 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:09:23 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:09:29 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:10:57 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:13:14 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:13:17 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:13:24 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:14:11 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:17:02 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:17:05 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:17:13 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:18:10 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:20:16 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:20:19 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:20:35 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:21:25 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:21:25 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:21:44 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:21:47 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:21:58 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:22:27 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:22:27 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:22:44 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:22:47 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:22:58 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:23:36 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:23:36 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:25:21 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:25:24 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:25:33 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:26:02 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:27:45 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:27:48 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:27:55 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:28:16 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:28:21 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:30:31 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:30:35 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:30:51 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:31:35 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:31:36 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:36:16 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:36:19 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:36:28 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:37:04 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:37:05 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:37:40 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:37:43 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:37:54 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:38:26 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:38:26 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:39:09 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:39:14 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:39:29 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:40:00 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:40:09 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:40:10 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:40:24 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:40:27 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:40:38 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:41:16 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:41:22 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 11/09/2019 23:41:22 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>

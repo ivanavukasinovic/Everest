@@ -43,6 +43,7 @@ import com.rohitawate.everest.sync.SyncManager;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
+import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -53,11 +54,15 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
+
 import org.fxmisc.flowless.VirtualizedScrollPane;
 
 import javax.ws.rs.ProcessingException;
 import javax.ws.rs.core.MediaType;
 import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -399,6 +404,17 @@ public class DashboardController implements Initializable {
         prettifyResponseBody(response);
         statusCode.setText(Integer.toString(response.getStatusCode()));
         statusCodeDescription.setText(EverestResponse.getReasonPhrase(response.getStatusCode()));
+        
+        if (statusCode.getText().equals("200")) {
+        	statusCode.setTextFill(Color.GREEN);
+        	statusCodeDescription.setTextFill(Color.GREEN);
+		}
+        
+        if (statusCode.getText().equals("404")) {
+        	statusCode.setTextFill(Color.RED);
+        	statusCodeDescription.setTextFill(Color.RED);
+		}
+        
         responseTime.setText(Long.toString(response.getTime()) + " ms");
         responseSize.setText(Integer.toString(response.getSize()) + " B");
         responseHeadersViewer.populate(response);
@@ -860,5 +876,13 @@ public class DashboardController implements Initializable {
     public String getHttpMethod() {
         return httpMethodBox.getValue();
     }
+    
+    @FXML
+	void copyToClipboard(ActionEvent event) {
+		Toolkit toolkit = Toolkit.getDefaultToolkit();
+		Clipboard clipboard = toolkit.getSystemClipboard();
+		StringSelection strSel = new StringSelection(responseArea.getSelectedText());
+		clipboard.setContents(strSel, null);
+	}
 
 }

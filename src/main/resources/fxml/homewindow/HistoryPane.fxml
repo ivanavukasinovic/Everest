@@ -31,6 +31,9 @@
 				<Insets />
 			</VBox.margin>
 			<children>
+			
+			
+			
                 <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true"
                            HBox.hgrow="ALWAYS">
 					<image>
@@ -60,10 +63,19 @@
                 <Insets bottom="5.0" left="20.0" right="10.0" top="5.0"/>
 			</padding>
 		</HBox>
+		
+		
+			
+            
+					
+		
 		<StackPane VBox.vgrow="ALWAYS">
 			<children>
+			
+					
+			
 				<StackPane>
-					<children>
+					<children>						
                         <ScrollPane fx:id="historyScrollPane" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER">
 							<content>
                                 <VBox fx:id="searchTab" alignment="TOP_CENTER" spacing="5.0">
@@ -139,5 +151,20 @@
 				</StackPane>
 			</children>
 		</StackPane>
+		
+		<HBox fx:id="historySearchFieldBox" alignment="CENTER" fillHeight="false">
+		<children>
+		<Button fx:id="clearHistoryButton" mnemonicParsing="false" style="-fx-base: #B22222;" textFill="WHITE" onAction="#clearHistory" prefHeight="30.0" prefWidth="200.0" text="CLEAR HISTORY">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               
+            </Button>
+            </children>
+			<padding>
+                <Insets bottom="7.0" left="20.0" right="20.0" top="7.0"/>
+			</padding>
+		</HBox>
+		
 	</children>
 </VBox>

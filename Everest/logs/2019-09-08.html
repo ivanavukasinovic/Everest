@@ -1,0 +1,2260 @@
+<!DOCTYPE html>
+<!--
+  ~ Copyright 2018 Rohit Awate.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08/09/2019</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: #282828;
+            font-size: 15px;
+            font-family: "Liberation Mono", monospace;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+            color: white;
+            background-color: #747474;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        .SEVERE {
+            color: orangered;
+        }
+
+        .WARNING {
+            color: yellow;
+        }
+
+        .INFO {
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+<h1>Everest Logs: 08/09/2019</h1>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:11:32 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:11:40 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:11:45 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:14:28 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:17:50 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:17:52 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:17:57 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:18:14 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:19:57 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:20:00 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:20:04 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:20:13 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:20:41 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:20:44 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:20:49 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:21:10 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:22:26 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:22:29 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:22:33 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 13:23:06 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: java.net.UnknownHostException: https<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 13:23:34 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: java.net.UnknownHostException: https<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:24:43 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:25:12 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:25:15 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:25:19 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 13:26:13 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gogle.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:28:00 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:31:54 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:31:56 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:32:02 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 13:32:30 <br>
+    <strong>PUT request could not be processed.</strong> <br>
+    java.lang.IllegalStateException: Entity must not be null for http method PUT.<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.validateHttpMethodAndEntity(JerseyInvocation.java:163)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:112)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:99)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.buildPut(JerseyInvocation.java:238)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.buildPut(JerseyInvocation.java:171)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.getInvocation(RequestManager.java:312)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.appendBody(RequestManager.java:207)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.access$5(RequestManager.java:194)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:108)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 13:32:39 <br>
+    <strong>POST request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gogle.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:110)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 13:32:53 <br>
+    <strong>PATCH request could not be processed.</strong> <br>
+    java.lang.IllegalStateException: Entity must not be null for http method PATCH.<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.validateHttpMethodAndEntity(JerseyInvocation.java:163)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:112)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:99)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.build(JerseyInvocation.java:212)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.build(JerseyInvocation.java:171)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.getInvocation(RequestManager.java:315)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.appendBody(RequestManager.java:207)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.access$5(RequestManager.java:194)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:108)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 13:32:57 <br>
+    <strong>DELETE request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gogle.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.delete(JerseyInvocation.java:368)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:114)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:53:27 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:54:09 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:54:12 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:54:18 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 13:56:15 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gogle.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:58:23 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:59:13 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:59:16 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 13:59:20 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 14:00:03 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 14:00:23 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 14:00:26 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 14:00:30 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 14:03:24 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 15:45:17 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 15:45:25 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 15:45:30 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="SEVERE">
+    <strong>SEVERE</strong> 08/09/2019 16:12:03 <br>
+    <strong>Request execution failed.</strong> <br>
+    javax.ws.rs.core.UriBuilderException: java.net.URISyntaxException: Expected scheme-specific part at index 6: https:<br>
+ -- org.glassfish.jersey.uri.internal.JerseyUriBuilder.createURI(JerseyUriBuilder.java:929)<br>
+ -- org.glassfish.jersey.uri.internal.JerseyUriBuilder._build(JerseyUriBuilder.java:918)<br>
+ -- org.glassfish.jersey.uri.internal.JerseyUriBuilder.build(JerseyUriBuilder.java:831)<br>
+ -- org.glassfish.jersey.client.JerseyWebTarget.getUri(JerseyWebTarget.java:133)<br>
+ -- org.glassfish.jersey.client.JerseyWebTarget.request(JerseyWebTarget.java:215)<br>
+ -- org.glassfish.jersey.client.JerseyWebTarget.request(JerseyWebTarget.java:60)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.setRequest(RequestManager.java:127)<br>
+ -- com.rohitawate.everest.controllers.DashboardController.sendRequest(DashboardController.java:251)<br>
+ -- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>
+ -- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>
+ -- java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>
+ -- java.base/java.lang.reflect.Method.invoke(Method.java:566)<br>
+ -- com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)<br>
+ -- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>
+ -- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>
+ -- java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>
+ -- java.base/java.lang.reflect.Method.invoke(Method.java:566)<br>
+ -- com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)<br>
+ -- com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)<br>
+ -- javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1784)<br>
+ -- javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670)<br>
+ -- com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)<br>
+ -- com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)<br>
+ -- com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)<br>
+ -- com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)<br>
+ -- com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)<br>
+ -- javafx.event.Event.fireEvent(Event.java:198)<br>
+ -- javafx.scene.Node.fireEvent(Node.java:8890)<br>
+ -- javafx.scene.control.Button.fire(Button.java:203)<br>
+ -- com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206)<br>
+ -- com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)<br>
+ -- com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)<br>
+ -- com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)<br>
+ -- com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)<br>
+ -- com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)<br>
+ -- com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)<br>
+ -- com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)<br>
+ -- javafx.event.Event.fireEvent(Event.java:198)<br>
+ -- javafx.scene.Scene$MouseHandler.process(Scene.java:3862)<br>
+ -- javafx.scene.Scene.processMouseEvent(Scene.java:1849)<br>
+ -- javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2590)<br>
+ -- com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)<br>
+ -- com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)<br>
+ -- com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:411)<br>
+ -- com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)<br>
+ -- com.sun.glass.ui.View.handleMouseEvent(View.java:556)<br>
+ -- com.sun.glass.ui.View.notifyMouse(View.java:942)<br>
+ -- com.sun.glass.ui.win.WinApplication._runLoop(Native Method)<br>
+ -- com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 16:12:52 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gmil.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 16:13:19 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gmil.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 16:17:50 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 16:24:01 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 16:24:06 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 16:24:17 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 16:24:35 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:21:51 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:21:53 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:22:00 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="SEVERE">
+    <strong>SEVERE</strong> 08/09/2019 17:22:16 <br>
+    <strong>Request execution failed.</strong> <br>
+    java.lang.NullPointerException<br>
+ -- com.rohitawate.everest.controllers.search.SearchablePaneController.appendToList(SearchablePaneController.java:143)<br>
+ -- com.rohitawate.everest.controllers.search.SearchablePaneController.addHistoryItem(SearchablePaneController.java:163)<br>
+ -- com.rohitawate.everest.controllers.HomeWindowController.addHistoryItem(HomeWindowController.java:282)<br>
+ -- com.rohitawate.everest.sync.SyncManager.saveState(SyncManager.java:52)<br>
+ -- com.rohitawate.everest.controllers.DashboardController.sendRequest(DashboardController.java:299)<br>
+ -- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>
+ -- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>
+ -- java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>
+ -- java.base/java.lang.reflect.Method.invoke(Method.java:566)<br>
+ -- com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)<br>
+ -- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>
+ -- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>
+ -- java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>
+ -- java.base/java.lang.reflect.Method.invoke(Method.java:566)<br>
+ -- com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)<br>
+ -- com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)<br>
+ -- javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1784)<br>
+ -- javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670)<br>
+ -- com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)<br>
+ -- com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)<br>
+ -- com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)<br>
+ -- com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)<br>
+ -- com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)<br>
+ -- javafx.event.Event.fireEvent(Event.java:198)<br>
+ -- javafx.scene.Node.fireEvent(Node.java:8890)<br>
+ -- javafx.scene.control.Button.fire(Button.java:203)<br>
+ -- com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206)<br>
+ -- com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)<br>
+ -- com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218)<br>
+ -- com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)<br>
+ -- com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238)<br>
+ -- com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)<br>
+ -- com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)<br>
+ -- com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)<br>
+ -- com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)<br>
+ -- com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)<br>
+ -- javafx.event.Event.fireEvent(Event.java:198)<br>
+ -- javafx.scene.Scene$MouseHandler.process(Scene.java:3862)<br>
+ -- javafx.scene.Scene.processMouseEvent(Scene.java:1849)<br>
+ -- javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2590)<br>
+ -- com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)<br>
+ -- com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)<br>
+ -- com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:411)<br>
+ -- com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)<br>
+ -- com.sun.glass.ui.View.handleMouseEvent(View.java:556)<br>
+ -- com.sun.glass.ui.View.notifyMouse(View.java:942)<br>
+ -- com.sun.glass.ui.win.WinApplication._runLoop(Native Method)<br>
+ -- com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:22:20 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:26:18 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:26:21 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:26:26 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 17:26:52 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gmil.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:26:58 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:28:32 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:28:35 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:28:40 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:29:07 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:29:17 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:29:20 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:29:26 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:29:34 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:32:53 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:32:55 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:33:01 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:33:34 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:36:45 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:36:47 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:36:52 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:37:26 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:48:00 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:48:03 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:48:08 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:48:36 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:50:56 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:50:58 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:51:03 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:51:26 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:52:22 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:52:24 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:52:29 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:52:49 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:58:01 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:58:03 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:58:08 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:58:27 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:59:08 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:59:11 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:59:16 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 17:59:43 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:03:55 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:03:57 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:04:02 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:04:44 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:08:08 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:08:10 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:08:15 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:09:01 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:12:21 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:12:24 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:12:29 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:12:46 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:13:34 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:13:36 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:13:41 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:14:23 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:31:08 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:31:10 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:31:15 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:37:46 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:39:51 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:39:55 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:40:00 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:40:11 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:42:39 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:42:42 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:42:48 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:43:06 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:48:30 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:48:34 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:48:40 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 18:48:52 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:04:59 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:05:02 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:05:09 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:05:41 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:10:21 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:10:24 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:10:32 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:11:34 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:12:58 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:13:00 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:13:06 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:13:50 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:16:24 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:16:27 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:16:32 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:17:21 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:18:09 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:18:12 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:18:17 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:18:35 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:19:28 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:19:31 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:19:36 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:19:57 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:20:37 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:20:40 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:20:46 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:20:56 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:21:42 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:21:45 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:21:50 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:22:47 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:39:26 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:39:29 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:39:35 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:40:16 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:42:16 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:42:18 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:42:23 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:43:02 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:47:41 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:47:44 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:47:50 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:48:25 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:49:07 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:49:10 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:49:16 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:50:16 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:51:19 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:51:22 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:51:27 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:52:10 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:53:00 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:53:02 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:53:09 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:55:43 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:56:50 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:56:53 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:57:00 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:57:44 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:58:49 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:58:51 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 19:58:57 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:00:31 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:00:34 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:00:41 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:00:56 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:01:01 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:01:11 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:01:15 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:01:22 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:03:42 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:03:58 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:04:01 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:04:07 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:06:14 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:06:16 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:06:22 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:08:09 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:08:13 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:08:49 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:08:54 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:08:59 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:09:21 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:10:30 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:10:32 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:10:38 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:12:10 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:17:57 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:18:01 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:18:07 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:18:26 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:19:07 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:19:09 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:19:15 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:19:40 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:23:03 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:23:09 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:23:14 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:23:37 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:24:18 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:24:22 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:24:28 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:24:50 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:27:01 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:27:04 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:27:11 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:27:54 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:29:15 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:29:18 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:29:24 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:31:22 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:31:46 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:31:49 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:31:55 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:34:38 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gogle.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:34:54 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gmil.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:35:02 <br>
+    <strong>PUT request could not be processed.</strong> <br>
+    java.lang.IllegalStateException: Entity must not be null for http method PUT.<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.validateHttpMethodAndEntity(JerseyInvocation.java:163)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:112)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:99)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.buildPut(JerseyInvocation.java:238)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.buildPut(JerseyInvocation.java:171)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.getInvocation(RequestManager.java:312)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.appendBody(RequestManager.java:207)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.access$5(RequestManager.java:194)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:108)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:35:12 <br>
+    <strong>POST request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gmil.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:110)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:35:17 <br>
+    <strong>PATCH request could not be processed.</strong> <br>
+    java.lang.IllegalStateException: Entity must not be null for http method PATCH.<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.validateHttpMethodAndEntity(JerseyInvocation.java:163)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:112)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:99)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.build(JerseyInvocation.java:212)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.build(JerseyInvocation.java:171)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.getInvocation(RequestManager.java:315)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.appendBody(RequestManager.java:207)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.access$5(RequestManager.java:194)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:108)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:35:23 <br>
+    <strong>DELETE request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gmil.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.delete(JerseyInvocation.java:368)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:114)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:39:20 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: java.net.UnknownHostException: gmail.net<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:40:06 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: java.net.UnknownHostException: gmail.net<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:41:58 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:53:53 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:53:56 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:54:02 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:55:12 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:56:00 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:56:03 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:56:09 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:57:18 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching javne-nabavke.net found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:57:26 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: java.net.UnknownHostException: javne-nbavke.net<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 20:57:41 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: java.net.UnknownHostException: gmail.con<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 20:58:35 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:00:15 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:00:19 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:00:29 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:01:05 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:01:50 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:01:55 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:02:08 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:02:52 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:03:23 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:03:30 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:03:43 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:04:45 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:05:02 <br>
+    <strong>Settings file not found. Loading defaults.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:05:09 <br>
+    <strong>Connected to database.</strong> <br>
+    
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:05:22 <br>
+    <strong>Application loaded.</strong> <br>
+    
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 21:06:09 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: java.net.UnknownHostException: https<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 21:06:53 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 21:07:04 <br>
+    <strong>PUT request could not be processed.</strong> <br>
+    java.lang.IllegalStateException: Entity must not be null for http method PUT.<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.validateHttpMethodAndEntity(JerseyInvocation.java:163)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:112)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:99)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.buildPut(JerseyInvocation.java:238)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.buildPut(JerseyInvocation.java:171)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.getInvocation(RequestManager.java:312)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.appendBody(RequestManager.java:207)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.access$5(RequestManager.java:194)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:108)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 21:07:28 <br>
+    <strong>PUT request could not be processed.</strong> <br>
+    java.lang.IllegalStateException: Entity must not be null for http method PUT.<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.validateHttpMethodAndEntity(JerseyInvocation.java:163)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:112)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:99)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.buildPut(JerseyInvocation.java:238)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.buildPut(JerseyInvocation.java:171)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.getInvocation(RequestManager.java:312)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.appendBody(RequestManager.java:207)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.access$5(RequestManager.java:194)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:108)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 21:08:03 <br>
+    <strong>PATCH request could not be processed.</strong> <br>
+    java.lang.IllegalStateException: Entity must not be null for http method PATCH.<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.validateHttpMethodAndEntity(JerseyInvocation.java:163)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:112)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:99)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.build(JerseyInvocation.java:212)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.build(JerseyInvocation.java:171)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.getInvocation(RequestManager.java:315)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.appendBody(RequestManager.java:207)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.access$5(RequestManager.java:194)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:108)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 21:08:15 <br>
+    <strong>PATCH request could not be processed.</strong> <br>
+    java.lang.IllegalStateException: Entity must not be null for http method PATCH.<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.validateHttpMethodAndEntity(JerseyInvocation.java:163)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:112)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.<init>(JerseyInvocation.java:99)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.build(JerseyInvocation.java:212)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.build(JerseyInvocation.java:171)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.getInvocation(RequestManager.java:315)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.appendBody(RequestManager.java:207)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager.access$5(RequestManager.java:194)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:108)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="WARNING">
+    <strong>WARNING</strong> 08/09/2019 21:08:45 <br>
+    <strong>GET request could not be processed.</strong> <br>
+    javax.ws.rs.ProcessingException: javax.net.ssl.SSLHandshakeException: No subject alternative DNS name matching gogle.com found.<br>
+ -- org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:284)<br>
+ -- org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:316)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:298)<br>
+ -- org.glassfish.jersey.internal.Errors.process(Errors.java:229)<br>
+ -- org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)<br>
+ -- org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:103)<br>
+ -- com.rohitawate.everest.requestmanager.RequestManager$1.call(RequestManager.java:1)<br>
+ -- javafx.concurrent.Task$TaskCallable.call(Task.java:1425)<br>
+ -- java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$6(Service.java:725)<br>
+ -- java.base/java.security.AccessController.doPrivileged(Native Method)<br>
+ -- javafx.concurrent.Service.lambda$executeTask$7(Service.java:724)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br>
+ -- java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br>
+ -- java.base/java.lang.Thread.run(Thread.java:834)<br>
+
+</p>
+<p class="INFO">
+    <strong>INFO</strong> 08/09/2019 21:08:57 <br>
+    <strong>Application state saved.</strong> <br>
+    
+</p>
