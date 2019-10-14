@@ -881,7 +881,7 @@ public class DashboardController implements Initializable {
 	void copyToClipboard(ActionEvent event) {
 		Toolkit toolkit = Toolkit.getDefaultToolkit();
 		Clipboard clipboard = toolkit.getSystemClipboard();
-		StringSelection strSel = new StringSelection(responseArea.getSelectedText());
+		StringSelection strSel = new StringSelection(responseArea.getText());
 		clipboard.setContents(strSel, null);
 	}
 
